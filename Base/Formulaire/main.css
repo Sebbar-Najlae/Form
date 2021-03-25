@@ -1,0 +1,52 @@
+
+body{
+   padding:10px;
+}
+fieldset{
+   border:solid 1px #EE6600;
+   border-radius:10px;
+   padding:20px;
+}
+legend{
+   font:bold 16pt arial;
+   color:#EE6600;
+}
+input,select{
+   border:solid 1px #AAAAAA;
+   padding:10px;
+   font:10pt verdana;
+   color:#EE6600;
+   outline:none;
+   border-radius:6px;
+}
+input[type="submit"]{
+   border:none;
+   background-color:#EE6600;
+   color:#FFFFFF;
+   width:200px;
+   cursor:pointer;
+}
+.label{
+   margin-bottom:4px;
+   font:10pt arial;
+   color:#AAAAAA;
+}
+.champ{
+   margin-bottom:20px;
+}
+.erreur{
+   font:10pt arial;
+   color:#DD0000;
+   background-color:#EEEEEE;
+   padding:10px;
+   border-radius:10px;
+   margin-bottom:10px;
+}
+.rappel{
+   font:10pt arial;
+   color:#888888;
+   background-color:#EEEEEE;
+   padding:10px;
+   border-radius:10px;
+   margin-bottom:10px;
+}
