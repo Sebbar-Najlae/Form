@@ -60,7 +60,7 @@ function test_input($data) {
 
 <form name="fo" method="post" action="">
          <fieldset>
-            <legend>Nouvel utilisateur</legend>
+            <legend><h2>Nouvel utilisateur</h2></legend>
             
           
             <div class="label">Nom</div>
@@ -93,18 +93,23 @@ function test_input($data) {
          </fieldset>
       </form>
 
+      
+      <div class="label"> <?php echo "<h1>Your Input:</h1>"; ?> </div>
+<div class="color">
       <?php
-echo "<h2>Your Input:</h2>";
-echo $nom;
-echo "<br>";
-echo $prenom;
-echo "<br>";
-echo $email;
-echo "<br>";
-echo $ville;
-echo "<br>";
 
+
+$nom=$_POST['nom'];
+$prenom=$_POST['prenom'];
+$email=$_POST['email'];
+
+$tabs = array($nom,$prenom,$email);
+foreach ($tabs as $tab) {
+    echo " $tab \n" ;
+}
 ?>
+
+</div>
 
 </body>
 </html>

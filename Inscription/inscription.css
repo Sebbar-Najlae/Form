@@ -1,28 +1,28 @@
 
-.error {color: #EE6600;}
+.error {color: #e07a5f;}
 body{
     padding:10px;
  }
  fieldset{
-    border:solid 1px #EE6600;
+    border:solid 1px #6798C0;
     border-radius:10px;
     padding:20px;
  }
  legend{
     font:bold 16pt arial;
-    color:#EE6600;
+    color:#6798C0;
  }
  input,select{
-    border:solid 1px #AAAAAA;
+    border:solid 1px #99D6EA;
     padding:10px;
     font:10pt verdana;
-    color:#EE6600;
+    color:#e07a5f;
     outline:none;
     border-radius:6px;
  }
  input[type="submit"]{
     border:none;
-    background-color:#EE6600;
+    background-color:#e07a5f;
     color:#FFFFFF;
     width:200px;
     cursor:pointer;
@@ -30,7 +30,7 @@ body{
  .label{
     margin-bottom:4px;
     font:10pt arial;
-    color:#AAAAAA;
+    color:#6798C0;
  }
  .champ{
     margin-bottom:20px;
@@ -50,5 +50,9 @@ body{
     padding:10px;
     border-radius:10px;
     margin-bottom:10px;
+ }
+
+ .color{
+    color:#030303;
  }
  
