@@ -99,12 +99,12 @@ function test_input($data) {
       <?php
 
 
-$nom=$_POST['nom'];
-$prenom=$_POST['prenom'];
-$email=$_POST['email'];
-$ville=$_POST['ville'];
 
-$tabs = array($nom,$prenom,$email,$ville);
+
+
+
+
+$tabs = array($_POST['nom'],$_POST['prenom'],$_POST['email'],$_POST['ville']);
 foreach ($tabs as $tab) {
     echo " $tab \n" ;
 }
